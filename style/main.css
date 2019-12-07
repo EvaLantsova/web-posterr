@@ -1,4 +1,7 @@
 @import "reset.css";
+@font-face {
+  src: url(fonts/Gilroy.ttf);
+}
 
 body {
   font-family: 'Gilroy';
