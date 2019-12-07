@@ -1,0 +1,57 @@
+@import "reset.css";
+
+body {
+  font-family: 'Gilroy';
+  font-weight: bold;
+  background-color: #010037;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+nav p{
+  justify-content: space-between;
+  align-items: center;
+  color: #E5F800;
+  font-size: 38px;
+}
+
+nav p em {
+  color: #B3CE5E;
+}
+
+.brokk .stalk {
+  width: 99vw;
+}
+
+.avopolice {
+  height: 100%;
+  background: rgb(2,3,64);
+  background: linear-gradient(180deg, rgba(2,3,64,1) 2%, rgba(211,255,0,1) 89%);
+  text-align: right;
+}
+
+.avopolice .man {
+  width: 60vw;
+  margin-top: -100px;
+  margin-right: -30px;
+}
+
+.avopolice .sticker {
+
+}
+
+.stickers {
+  width: 120vw;
+  height: 100vw;
+  background-image: url(../img/stickers.svg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.wrapper {
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+
+}
