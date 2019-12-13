@@ -1,28 +1,51 @@
 @import "reset.css";
+
 @font-face {
-  src: url(fonts/Gilroy.ttf);
+   font-family: "Gilroy";
+   src: url(fonts/Gilroy.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Europe";
+  src: url(fonts/Europe.ttf)format("opentype");
 }
 
 body {
   font-family: 'Gilroy';
+  font-family: 'Europe';
   font-weight: bold;
   background-color: #010037;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
-nav p{
+.text {
   justify-content: space-between;
-  align-items: center;
   color: #E5F800;
-  font-size: 38px;
+  font-size: 26px;
+  width: 99vw;
 }
 
-nav p em {
+.prod {
+  margin-left: 225px;
+  font-size: 26px;
+  margin-left: 134px;
+}
+
+.text p em {
   color: #B3CE5E;
+  margin-left: 47px;
+  font-size: 26px;
 }
 
-.brokk .stalk {
+.extra {
+  margin-top: 30px;
+  letter-spacing: 5px;
+  font-size: 39px;
+}
+
+.brokkoli img{
   width: 99vw;
 }
 
@@ -33,14 +56,33 @@ nav p em {
   text-align: right;
 }
 
-.avopolice .man {
-  width: 60vw;
-  margin-top: -100px;
-  margin-right: -30px;
+ .man {
+   width: 120vw;
+   height: 100vw;
+   background-image: url(../img/man3.svg);
+   background-size: cover;
+   background-position: bottom;
 }
 
-.avopolice .sticker {
+.wrapper2 {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
 
+.text2 {
+  font-family: Europe, sans-serif;
+  color: #CDD110;
+  font-size: 28px;
+  position: relative;
+  margin-top: -163px;
+  margin-bottom: 50px;
+}
+
+
+
+.not_full p{
+  opacity: 60%;
 }
 
 .stickers {
@@ -56,5 +98,31 @@ nav p em {
   overflow-x: hidden;
   display: flex;
   align-items: center;
+}
 
+@media (min-width: 375px) {
+  .text {
+    font-size: 38px;
+  }
+  .text p em{
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1920px ) {
+  .text {
+    font-size: 167px;
+  }
+  .text p em{
+    font-size: 167px;
+  }
+  nav .prod {
+    font-size: 167px;
+    margin-left: -10px;
+
+  }
+  nav .extra {
+    font-size: 167px;
+
+  }
 }
