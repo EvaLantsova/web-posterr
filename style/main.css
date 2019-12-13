@@ -10,6 +10,10 @@
   src: url(../fonts/Europe.ttf)format("opentype");
 }
 
+html {
+  overflow-x: hidden;
+}
+
 
 body {
   font-family: 'Gilroy';
@@ -66,6 +70,7 @@ body {
     width: 55vw;
     width: 45vw;
     position: absolute;
+    overflow-x: scroll;
 }
 
 .brok {
@@ -73,6 +78,7 @@ body {
     right: -208px;
     width: 493px;
     bottom: 370px;
+    overflow-x: hidden;
 }
 
 .wrapper2 {
@@ -144,6 +150,23 @@ body {
     font-size: 38px;
   }
 }
+
+@mdia (min-width: 414px) {
+  .prod {
+  margin-left: 215px;
+  font-size: 38px;
+  }
+  .extra {
+  font-size: 52px;
+  }
+  .brok {
+  position: fixed;
+  right: -208px;
+  width: 503px;
+  bottom: -35px;
+  }
+}
+
 
 @media (min-width: 768px ) {
   .text {
