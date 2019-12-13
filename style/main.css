@@ -55,21 +55,25 @@ body {
   background: rgb(2,3,64);
   background: linear-gradient(180deg, rgba(2,3,64,1) 2%, rgba(211,255,0,1) 89%);
   text-align: right;
+  position: relative;
 }
 
 .lemon {
-  width: 120px;
     transform: rotate(45deg);
     left: -29px;
-    top: 302px;
+    top: -71px;
+    height: 68vw;
+    width: 55vw;
+    width: 45vw;
+    position: absolute;
 }
 
- .avopolice img {
-   position: absolute;
-   right: -208px;
-   width: 456px;
-   bottom: 29px;
- }
+.brok {
+    position: absolute;
+    right: -208px;
+    width: 493px;
+    bottom: 370px;
+}
 
 .wrapper2 {
   width: 100vw;
