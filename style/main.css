@@ -2,13 +2,14 @@
 
 @font-face {
    font-family: "Gilroy";
-   src: url(fonts/Gilroy.ttf) format("opentype");
+   src: url(../fonts/Gilroy.ttf) format("opentype");
 }
 
 @font-face {
   font-family: "Europe";
-  src: url(fonts/Europe.ttf)format("opentype");
+  src: url(../fonts/Europe.ttf)format("opentype");
 }
+
 
 body {
   font-family: 'Gilroy';
@@ -30,7 +31,7 @@ body {
 .prod {
   margin-left: 225px;
   font-size: 26px;
-  margin-left: 134px;
+  margin-left: 180px;
 }
 
 .text p em {
@@ -41,11 +42,11 @@ body {
 
 .extra {
   margin-top: 30px;
-  letter-spacing: 5px;
-  font-size: 39px;
+  letter-spacing: 9px;
+  font-size: 41px;
 }
 
-.brokkoli img{
+.stalker img{
   width: 99vw;
 }
 
@@ -56,16 +57,23 @@ body {
   text-align: right;
 }
 
- .man {
-   width: 120vw;
-   height: 100vw;
-   background-image: url(../img/man3.svg);
-   background-size: cover;
-   background-position: bottom;
+.lemon {
+  width: 120px;
+    transform: rotate(45deg);
+    left: -29px;
+    top: 302px;
 }
+
+ .avopolice img {
+   position: absolute;
+   right: -208px;
+   width: 456px;
+   bottom: 29px;
+ }
 
 .wrapper2 {
   width: 100vw;
+  overflow-x: hidden;
   display: flex;
   align-items: center;
 }
@@ -73,17 +81,40 @@ body {
 .text2 {
   font-family: Europe, sans-serif;
   color: #CDD110;
-  font-size: 28px;
+  font-size: 40px;
   position: relative;
-  margin-top: -163px;
+  margin-top: 126px;
   margin-bottom: 50px;
 }
-
-
-
-.not_full p{
-  opacity: 60%;
+.super_full {
+  opacity: 100%;
 }
+
+.not_super_full {
+  opacity: 80%;
+  margin-right: 25px;
+}
+
+.full {
+  opacity: 55%;
+  margin-right: 50px;
+}
+
+.not_full {
+  opacity: 20%;
+  margin-right: 75px;
+}
+
+.not_so_full {
+  opacity: 10%;
+  margin-right: 110px;
+}
+
+.not_so_full_{
+  opacity: 5%;
+  margin-right: 130px;
+}
+
 
 .stickers {
   width: 120vw;
@@ -100,12 +131,67 @@ body {
   align-items: center;
 }
 
+
 @media (min-width: 375px) {
   .text {
     font-size: 38px;
   }
   .text p em{
     font-size: 38px;
+  }
+}
+
+@media (min-width: 768px ) {
+  .text {
+    font-size: 65px;
+  }
+  .text p em{
+    font-size: 65px;
+  }
+  nav .prod {
+    font-size: 65px;
+    margin-left: -10px;
+
+  }
+  nav .extra {
+    font-size: 167px;
+
+  }
+}
+
+
+@media (min-width: 1440px ) {
+  .text {
+    font-size: 123px;
+  }
+  .text p em{
+    font-size: 123px;
+  }
+  nav .prod {
+    font-size: 123px;
+    margin-left: -10px;
+
+  }
+  nav .extra {
+    font-size: 167px;
+
+  }
+}
+
+@media (min-width: 1534px ) {
+  .text {
+    font-size: 148px;
+  }
+  .text p em{
+    font-size: 148px;
+  }
+  nav .prod {
+    font-size: 148px;
+    margin-left: -10px;
+
+  }
+  nav .extra {
+    font-size: 167px;
   }
 }
 
