@@ -186,16 +186,38 @@ body {
   width: 151vw;
 }
 .text2 {
-  margin-left: 39px;
-  top: 409px;
+  margin-left: -4px;
+  top: 456px;
   margin-bottom: -22px;
   font-size: 48px;
-  line-height: 39px;
+  line-height: 41px;
+  width: 100px;
 }
 
 .stickers {
   width: 101vw;
   margin-top: -14px;
+}
+
+.not_full {
+margin-right: 82px;
+}
+
+.lemon {
+  top: 80px;
+}
+
+.brok {
+  right: -55px;
+  width: 590px;
+}
+
+.not_so_full {
+margin-right: 126px;
+}
+
+.not_so_full_ {
+margin-right: 172px;
 }
 
 @media (min-width: 414px) {
