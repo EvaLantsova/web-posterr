@@ -66,6 +66,7 @@ body {
 
 .stalker img{
   width: 151vw;
+  margin-top: 2vw;
 }
 
 .avopolice {
@@ -77,13 +78,13 @@ body {
 }
 
 .lemon {
-    transform: rotate(45deg);
-    left: -29px;
-    top: -388px;
-    height: 68vw;
-    width: 45vw;
-    position: absolute;
-    overflow-x: scroll;
+  transform: rotate(45deg);
+   left: -29px;
+   top: -329px;
+   height: 68vw;
+   width: 45vw;
+   position: absolute;
+   overflow-x: scroll;
 }
 
 .brok {
@@ -92,6 +93,7 @@ body {
     width: 493px;
     bottom: 317px;
     overflow-x: hidden;
+    top: -154vw;
 }
 
 .wrapper2 {
@@ -99,6 +101,7 @@ body {
   overflow-x: hidden;
   display: flex;
   align-items: center;
+  margin-top: 133vw;
 }
 
 .text2 {
@@ -106,8 +109,8 @@ body {
     color: #CDD110;
     font-size: 40px;
     position: absolute;
-    margin-top: -292px;
-    margin-bottom: 50px;
+    margin-top: -244px;
+    margin-left: 10px;
 }
 
 .super_full {
@@ -142,10 +145,11 @@ body {
 
 .stickers {
     width: 103vw;
-    height: 86vw;
+    height: 99vw;
     background-image: url(../img/stickers.svg);
     background-size: cover;
     background-position: bottom;
+    margin-top: 55vw;
 }
 
 .wrapper {
@@ -153,9 +157,10 @@ body {
     overflow-x: hidden;
     display: flex;
     align-items: center;
+    margin-top: 133vw;
 }
 
-@media (min-width: 375px) {
+@mdia (min-width: 375px) {
   .text {
   font-size: 46px;
   line-height: 36px;
@@ -176,12 +181,14 @@ body {
    .lemon {
   top: 45px;
 }
-  .brok {
-  position: relative;
-  right: -120px;
-  width: 544px;
-  bottom: 136px;
+
+.brok {
+    position: relative;
+    right: -55px;
+    width: 590px;
+    bottom: 136px;
 }
+
   .stalker img {
   width: 151vw;
 }
@@ -220,7 +227,7 @@ margin-right: 126px;
 margin-right: 172px;
 }
 
-@media (min-width: 414px) {
+@mdia (min-width: 414px) {
   .prod p {
   margin-left: 215px;
   font-size: 38px;
@@ -257,7 +264,7 @@ margin-right: 172px;
 }
 
 
-@media (min-width: 768px ) {
+@mdia (min-width: 768px ) {
   .text {
     font-size: 65px;
   }
@@ -276,7 +283,7 @@ margin-right: 172px;
 }
 
 
-@media (min-width: 1440px ) {
+@mdia (min-width: 1440px ) {
   .text {
     font-size: 123px;
   }
@@ -294,7 +301,7 @@ margin-right: 172px;
   }
 }
 
-@media (min-width: 1534px ) {
+@mdia (min-width: 1534px ) {
   .text {
     font-size: 148px;
   }
@@ -311,7 +318,7 @@ margin-right: 172px;
   }
 }
 
-@media (min-width: 1920px ) {
+@mdia (min-width: 1920px ) {
   .text {
     font-size: 167px;
   }
