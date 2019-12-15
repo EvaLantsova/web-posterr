@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
     color: #E5F800;
     font-size: 36px;
-    width: 99vw;
+    width: 100vw;
     margin-top: 78px;
     letter-spacing: -2px;
     line-height: 37px;
@@ -55,7 +55,7 @@ body {
 }
 
 .s1 {
-  
+
 }
 
 .stalker img{
@@ -147,19 +147,51 @@ body {
     overflow-x: hidden;
     display: flex;
     align-items: center;
-    margin-top: 412px;
 }
 
 @media (min-width: 375px) {
   .text {
-    font-size: 38px;
+  font-size: 46px;
+  line-height: 36px;
   }
+
   .text p em{
-    font-size: 38px;
+    font-size: inherit;
+  }
+  .extra {
+    font-size: 53px;
+}
+  .brok {
+  position: relative;
+  right: -120px;
+  width: 544px;
+  bottom: 145px;
+  }
+   .lemon {
+  top: 45px;
+}
+  .brok {
+  position: relative;
+  right: -120px;
+  width: 544px;
+  bottom: 136px;
+}
+  .stalker img {
+  width: 151vw;
+}
+  .text2 {
+  margin-left: 72px;
+  top: 409px;
+  margin-bottom: -22px;
+}
+.stickers {
+  width: 101vw;
+  margin-top: -14px;
   }
 }
+}
 
-@mdia (min-width: 414px) {
+@media (min-width: 414px) {
   .prod p {
   margin-left: 215px;
   font-size: 38px;
@@ -181,6 +213,17 @@ body {
   right: -120px;
   width: 544px;
   bottom: 136px;
+  }
+  .stalker img {
+  width: 151vw;
+}
+  .text2 {
+  margin-top: -259px;
+  margin-left: 68px;
+  top: -331px;
+  }
+  .stickers {
+  width: 102vw;
   }
 }
 
