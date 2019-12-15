@@ -25,33 +25,37 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
 .text {
-  justify-content: space-between;
-  color: #E5F800;
-  font-size: 26px;
-  width: 99vw;
+    justify-content: space-between;
+    color: #E5F800;
+    font-size: 36px;
+    width: 99vw;
+    margin-top: 78px;
+    letter-spacing: -2px;
+    line-height: 37px;
 }
 
 .prod {
   margin-left: 225px;
-  font-size: 26px;
-  margin-left: 180px;
+  font-size: inherit;
+  margin-left: 146px;
 }
 
 .text p em {
   color: #B3CE5E;
   margin-left: 47px;
-  font-size: 26px;
+  font-size: inherit;
 }
 
 .extra {
   margin-top: 30px;
-  letter-spacing: 9px;
-  font-size: 41px;
+  letter-spacing: 7px;
+  font-size: 44px;
 }
 
 .stalker img{
-  width: 99vw;
+  width: 151vw;
 }
 
 .avopolice {
@@ -65,9 +69,8 @@ body {
 .lemon {
     transform: rotate(45deg);
     left: -29px;
-    top: -71px;
+    top: -388px;
     height: 68vw;
-    width: 55vw;
     width: 45vw;
     position: absolute;
     overflow-x: scroll;
@@ -77,7 +80,7 @@ body {
     position: absolute;
     right: -208px;
     width: 493px;
-    bottom: 370px;
+    bottom: 317px;
     overflow-x: hidden;
 }
 
@@ -89,13 +92,14 @@ body {
 }
 
 .text2 {
-  font-family: Europe, sans-serif;
-  color: #CDD110;
-  font-size: 40px;
-  position: relative;
-  margin-top: 126px;
-  margin-bottom: 50px;
+    font-family: 'Europe Bold Italic', arial;
+    color: #CDD110;
+    font-size: 40px;
+    position: absolute;
+    margin-top: -292px;
+    margin-bottom: 50px;
 }
+
 .super_full {
   opacity: 100%;
 }
@@ -127,20 +131,20 @@ body {
 
 
 .stickers {
-  width: 120vw;
-  height: 100vw;
-  background-image: url(../img/stickers.svg);
-  background-size: cover;
-  background-position: bottom;
+    width: 103vw;
+    height: 86vw;
+    background-image: url(../img/stickers.svg);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .wrapper {
-  width: 100vw;
-  overflow-x: hidden;
-  display: flex;
-  align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: 412px;
 }
-
 
 @media (min-width: 375px) {
   .text {
@@ -152,18 +156,27 @@ body {
 }
 
 @mdia (min-width: 414px) {
-  .prod {
+  .prod p {
   margin-left: 215px;
   font-size: 38px;
   }
-  .extra {
-  font-size: 52px;
+  .extra p {
+  font-size: 55px;
   }
   .brok {
   position: fixed;
   right: -208px;
   width: 503px;
   bottom: -35px;
+  }
+  .lemon {
+    top: 5px;
+  }
+  .brok {
+  position: relative;
+  right: -120px;
+  width: 544px;
+  bottom: 136px;
   }
 }
 
