@@ -185,16 +185,17 @@ body {
   .stalker img {
   width: 151vw;
 }
-  .text2 {
-  margin-left: 72px;
+.text2 {
+  margin-left: 39px;
   top: 409px;
   margin-bottom: -22px;
+  font-size: 48px;
+  line-height: 39px;
 }
+
 .stickers {
   width: 101vw;
   margin-top: -14px;
-  }
-}
 }
 
 @media (min-width: 414px) {
