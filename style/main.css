@@ -10,6 +10,12 @@
   src: url(../fonts/Europe.ttf)format("opentype");
 }
 
+@font-face {
+   font-family: "Europe Bold Italic";
+   src: url(../fonts/EuropeItalic.ttf) format("opentype");
+}
+
+
 html {
   overflow-x: hidden;
 }
