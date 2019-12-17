@@ -32,6 +32,82 @@ body {
   overflow-x: hidden;
 }
 
+.s1 {
+    position: relative;
+    right: -143px;
+    -154px: ;
+    5px: ;
+    width: 43vw;
+    width: 32vw;
+    transform-style:preserve-3d;
+    animation:f 4s both, g 4s both, h 1s both;
+}
+
+  &:before , &:after {
+   content:'';
+   display:block;
+   position:absolute;
+   width:100%;
+   height:100%;
+   border-radius:50%;
+   background:center/cover url(../img/sticker1.svg);
+ }
+
+ &:before {
+   animation: f 4s both;
+   @keyframes f {
+     from {clip-path:inset(0 80% 0 0);}
+     50%, to {clip-path:inset(0 0% 0 0);}
+   }
+ }
+
+ &:after {
+   filter:brightness(0.2);
+   transform:rotateY(-180deg);
+   animation:g 4s both;
+   @keyframes g {
+     from {clip-path:inset(0 0 0 20%);transform-origin:20% 0;}
+     50%, to {clip-path:inset(0 0 0 100%);transform-origin:100% 0;}
+   }
+ }
+
+ animation:h 1s both;
+ transform-origin:center bottom;
+ @keyframes h {
+   from {transform:rotate(-50deg)}
+   to {transform:rotate(-40deg)}
+ }
+}
+
+.s2 {
+    position: relative;
+    right: -50px;
+    top: 53px;
+    width: 81px;
+}
+
+.s3  {
+    position: absolute;
+    top: 29px;
+    right: 1px;
+    width: 38vw;
+}
+
+.s4   {
+    position: relative;
+    top: 373px;
+    left: -197px;
+    z-index: 100;
+    width: 32vw;
+}
+
+.s5 {
+    position: relative;
+    top: 235px;
+    left: -27px;
+    width: 28vw;
+}
+
 .text {
     justify-content: space-between;
     color: #E5F800;
@@ -42,10 +118,34 @@ body {
     line-height: 37px;
 }
 
+
 .prod {
   margin-left: 225px;
   font-size: inherit;
   margin-left: 146px;
+}
+
+.prod {
+
+from {60%,
+       75%,
+      90%,}
+
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+}
+
+@keyframes fall {
+0% {
+transform: translate3d(0,-100vw,0);
+}
+
+100% {
+transform: translate3d(0,0,0);
+}
 }
 
 .text p em {
@@ -55,14 +155,11 @@ body {
 }
 
 .extra {
-  margin-top: 30px;
+  margin-top: 126px;
   letter-spacing: 7px;
   font-size: 44px;
 }
 
-.s1 {
-
-}
 
 .stalker img{
   width: 151vw;
@@ -149,7 +246,7 @@ body {
     background-image: url(../img/stickers.svg);
     background-size: cover;
     background-position: bottom;
-    margin-top: 55vw;
+    margin-top: 100vw;
 }
 
 .wrapper {
@@ -157,10 +254,10 @@ body {
     overflow-x: hidden;
     display: flex;
     align-items: center;
-    margin-top: 133vw;
+    margin-top: 219vw;
 }
 
-@mdia (min-width: 375px) {
+@media (min-width: 375px) {
   .text {
   font-size: 46px;
   line-height: 36px;
@@ -171,53 +268,43 @@ body {
   }
   .extra {
     font-size: 53px;
-}
+  }
+
   .brok {
   position: relative;
   right: -120px;
-  width: 544px;
-  bottom: 145px;
+  width: 609px;
+  bottom: -44px;
+  top: 167px;
+  left: 46px;
   }
-   .lemon {
-  top: 45px;
-}
 
-.brok {
-    position: relative;
-    right: -55px;
-    width: 590px;
-    bottom: 136px;
-}
+  .lemon {
+     top: 374px;
+   }
 
   .stalker img {
   width: 151vw;
-}
-.text2 {
-  margin-left: -4px;
-  top: 456px;
-  margin-bottom: -22px;
-  font-size: 48px;
-  line-height: 41px;
-  width: 100px;
-}
+  }
 
-.stickers {
-  width: 101vw;
-  margin-top: -14px;
-}
+  .text2 {
+    margin-left: -2px;
+    top: 697px;
+    margin-bottom: -22px;
+    font-size: 47px;
+    line-height: 41px;
+  }
+
+
+  .stickers {
+      width: 101vw;
+      margin-top: 267px;
+  }
 
 .not_full {
 margin-right: 82px;
 }
 
-.lemon {
-  top: 80px;
-}
-
-.brok {
-  right: -55px;
-  width: 590px;
-}
 
 .not_so_full {
 margin-right: 126px;
@@ -227,6 +314,14 @@ margin-right: 126px;
 margin-right: 172px;
 }
 
+.wrapper {
+    margin-top: 29vw;
+    height: 173vw;
+    margin-inline-end: -310px;
+    writing-mode: vertical-rl;
+}
+
+
 @mdia (min-width: 414px) {
   .prod p {
   margin-left: 215px;
@@ -235,21 +330,16 @@ margin-right: 172px;
   .extra p {
   font-size: 55px;
   }
-  .brok {
-  position: fixed;
-  right: -208px;
-  width: 503px;
-  bottom: -35px;
-  }
+
   .lemon {
-    top: 5px;
+    top: 80px;
   }
+
   .brok {
-  position: relative;
-  right: -120px;
-  width: 544px;
-  bottom: 136px;
+    right: -55px;
+    width: 590px;
   }
+
   .stalker img {
   width: 151vw;
 }
