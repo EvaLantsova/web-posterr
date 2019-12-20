@@ -790,20 +790,17 @@ body {
   }
 }
 
-@mdia (min-width: 1920px ) {
-  .text {
-    font-size: 167px;
+@media (min-width: 1920px ) {
+ .s2 {
+   right: -48vw;
+   top: -71vw;
+ }
+ .text p em {
+    margin-left: 286px;
   }
-  .text p em{
-    font-size: 167px;
+  .text2 {
+      top: -102vw;
+      margin-left: -268px;
   }
-  nav .prod {
-    font-size: 167px;
-    margin-left: -10px;
 
-  }
-  nav .extra {
-    font-size: 167px;
-
-  }
 }
