@@ -726,22 +726,51 @@ body {
 }
 
 
-@mdia (min-width: 1440px ) {
-  .text {
-    font-size: 123px;
-  }
-  .text p em{
-    font-size: 123px;
-  }
-  nav .prod {
-    font-size: 123px;
-    margin-left: -10px;
+@media (min-width: 1440px ) {
 
+  .s1 {
+        width: 53vmin;
+        height: 33vmin;
+        margin-top: -22vw;
+        margin-left: -34vw;
   }
-  nav .extra {
-    font-size: 167px;
 
+  .s2 {
+      position: relative;
+      right: -31vw;
+      top: -58vw;
+      width: 37vw;
   }
+
+  .s3 {
+    position: absolute;
+    top: 288px;
+    right: 12px;
+    width: 55vw;
+}
+.s4 {
+    position: relative;
+    top: 74vw;
+    left: -44vw;
+    z-index: 100;
+    width: 43vw;
+}
+
+.s5 {
+    position: relative;
+    top: 50vw;
+    left: -81vw;
+    width: 39vw;
+}
+
+  .text2 {
+    top: -88vw;
+    margin-left: -208px;
+    }
+
+    .not_full {
+    margin-right: 270px;
+   }
 }
 
 @mdia (min-width: 1534px ) {
