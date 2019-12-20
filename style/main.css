@@ -592,7 +592,6 @@ body {
     width: 128vw;
     }
 }
-}
 
 @media (min-width: 414px) {
 
@@ -608,9 +607,9 @@ body {
 .lemon {
     transform: rotate(47deg);
     left: -12vw;
-    top: 60vw;
-    height: 70vw;
-    width: 45vw;
+    top: 50vw;
+    height: 60vw;
+    width: 39vw;
     z-index: 1;
   }
 
@@ -622,7 +621,7 @@ body {
   }
 
   .text {
-    margin-top: -260vw;
+    margin-top: -80vw;
   }
 
   .wrapper {
@@ -652,34 +651,78 @@ body {
     margin-top: 4vw;
   }
 
- .txt2 {
-    margin-left: -288px;
-    width: 168vw;
-    top: 720px;
-  }
-
   .stickers {
       width: 102vw;
       margin-top: 109vw;
   }
 }
 
-@mdia (min-width: 768px ) {
+@media (min-width: 768px ) {
+
+  .s1 {
+      width: 53vmin;
+      height: 64vmin;
+      margin-top: 33vw;
+      margin-left: -34vw;
+  }
+
+  .s2 {
+    position: relative;
+    right: -59vw;
+    top: -44vw;
+    width: 32vw;
+}
+
+.s3 {
+    position: absolute;
+    top: 245px;
+    right: -3px;
+    width: 51vw;
+}
+
+.s4 {
+    position: relative;
+    top: 64vw;
+    left: -44vw;
+    z-index: 100;
+    width: 43vw;
+}
+
+.s5 {
+    position: relative;
+    top: 46vw;
+    left: -81vw;
+    width: 39vw;
+}
+
+
   .text {
-    font-size: 65px;
+    margin-top: -26vw;
+    line-height: 10vw;
+    font-size: 10vw;
   }
-  .text p em{
-    font-size: 65px;
-  }
-  nav .prod {
-    font-size: 65px;
-    margin-left: -10px;
 
-  }
-  nav .extra {
-    font-size: 167px;
+  .text p em {
+    margin-left: 107px;
+ }
 
+  .not_full {
+      margin-right: 137px;
   }
+
+.lemon {
+  top: 11vw;
+}
+
+.stickers {
+    width: 110vw;
+    margin-top: 154vw;
+}
+
+.text2 {
+  top: -65vw;
+}
+
 }
 
 
