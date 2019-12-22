@@ -32,27 +32,24 @@ body {
   overflow-x: hidden;
 }
 
-
-/* .s1 {
-    width:50vmin;
-    height:50vmin;
-    transform-style:preserve-3d;
-    position:relative;
-    right: 0;
-    width: 32vw;
+/*
+.s1 {
+    width: 30vw;
+    height: 30vw;
+    margn-top: -51vw;
+    margin-left: -28vw;
     transform-style:preserve-3d;
 }
-
-.stickerWrap {
-  width: 50vmin;
-  height: 50vmin;
-  transform-style: preserve-3d;
-  position: relative;
-  animation: h 1s both;
-  transform-origin: center bottom;
-  animation:f 4s both, g 4s both, h 4s both;
+*/
+.s1 {
+width: 65vw;
+height: 138vw;
+margin-top: -51vw;
+margin-left: 9vw;
+transform-style:preserve-3d;
 }
 
+/*
 .stickerWrap:before,
 .stickerWrap:after {
   content: '';
@@ -64,9 +61,9 @@ body {
   background: center / cover url('../img/sticker1.svg');
 }
 .stickerWrap:before {
-  animation: f 4s both;
-  width: 50vmin;
-  height: 50vmin;
+  animation: f 8s both;
+  width: 65vw;
+  height: 197vw;
   transform-style: preserve-3d;
   position: relative;
   right: 0;
@@ -84,9 +81,9 @@ body {
 .stickerWrap:after {
   filter: brightness(0.2);
   transform: rotateY(-180deg);
-  animation: g 4s both;
-  width: 50vmin;
-  height: 50vmin;
+  animation: g 8s both;
+  width: 65vw;
+  height: 197vw;
   transform-style: preserve-3d;
   position: relative;
   right: 0;
@@ -112,12 +109,20 @@ body {
   }
 } */
 
+/*
 .stickerWrap {
   min-height: 100vh;
-  display: grid;
-  justify-content: center;
+  width: 65vw;
+  height: 197vw;
+  display: gr id;
+  justify-content: ce nter;
   align-content: center;
+  animation: f 4s both g 4s both h 4s both;
 }
+*/
+
+
+
 /*
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -129,13 +134,17 @@ body {
 }
 */
 
+/*
 .s1 {
   width: 70vmin;
   height: 50vmin;
   margin-top: -51vw;
   margin-left: -28vw;
 }
-  /*
+*/
+
+
+/*
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: relative;
@@ -259,7 +268,7 @@ body {
 
 .s4 {
   position: relative;
-  top: 38vw;
+  top: -11vw;
   left: -44vw;
   z-index: 100;
   width: 32vw;
@@ -267,7 +276,7 @@ body {
 
 .s5 {
   position: relative;
-  top: -3vw;
+  top: -50vw;
   left: 4vw;
   width: 34vw;
 }
@@ -275,28 +284,46 @@ body {
 .text {
   justify-content: space-between;
   color: #E5F800;
-      font-size: 32px;
-      width: 100vw;
-      margin-top: -109vw;
+  font-size: 11vw;
+  width: 100vw;
+  margin-top: -109vw;
   letter-spacing: -2px;
   line-height: 37px;
-}
+  /*animation: animate 5s linear infinite;
+      background: linear-gradient(90deg, #000, rgba(211,255,0,1), #000);
+      color: #010037;
+background-repeat: no-repeat;
+background-size: 80%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgba(c, 255, 255, 5);*/
+ }
 
 
 .now {
-  margin-left: 4vw;
+  margin-left: 2vw;
 }
 
 .prod {
   font-size: inherit;
-  margin-left: 48vw;
+  margin-left: 46vw;
 }
 
 
 .text p em {
-  color: #B3CE5E;
+  color: # B3CE5E;
   margin-left: 47px;
   font-size: inherit;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+    opacity: 50
+  }
+  100% {
+    background-position: 500%;
+    opacity: 50
+  }
 }
 
 .extra {
@@ -336,15 +363,19 @@ body {
 }
 */
 
-.stalker img{
-  width: 151vw;
-  margin-top: 2vw;
-  margin-left: -3vw;
-  animation: heartBeat 4s infinite;
-}
+
+.stalker img {
+    width: 151vw;
+    margin-top: 2vw;
+    margin-left: -3vw;
+    animation: animate 20s linear infinite;
+    background: radial-gradient(ellipse closest-side at 62px 56px,rgba(211,255,0,1), #010037);
+    background-repeat: repeat-x;
+    background-size: 37%;
+  }
 
 
-@keyframes heartBeat {
+@ keyframes heartBeat {
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -380,11 +411,6 @@ body {
   position: relative;
 }
 
-#wrapper3 {
-  height: 800px;
-   margin: auto;
-}
-
 .lemon {
   transform: rotate(45deg);
    left: -29px;
@@ -392,11 +418,7 @@ body {
    height: 68vw;
    width: 45vw;
    overflow-x: scroll;
-   position: sticky;
- position: -webkit-sticky;
- display: flex;
- justify-content: center;
- align-items: center;
+   position: fixed;
 }
 
 .brok {
@@ -478,12 +500,6 @@ body {
    width: 127vw;
   }
 
-  .s1 {
-      width: 70vmin;
-      height: 50vmin;
-      margin-top: -51vw;
-      margin-left: -28vw;
-  }
 
   .s2 {
       position: relative;
@@ -659,13 +675,6 @@ body {
 
 @media (min-width: 768px ) {
 
-  .s1 {
-      width: 53vmin;
-      height: 64vmin;
-      margin-top: 33vw;
-      margin-left: -34vw;
-  }
-
   .s2 {
     position: relative;
     right: -59vw;
@@ -728,12 +737,6 @@ body {
 
 @media (min-width: 1440px ) {
 
-  .s1 {
-        width: 53vmin;
-        height: 33vmin;
-        margin-top: -22vw;
-        margin-left: -34vw;
-  }
 
   .s2 {
       position: relative;
