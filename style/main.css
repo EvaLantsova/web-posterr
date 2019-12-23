@@ -267,7 +267,7 @@ body {
 
 .s4 {
   position: absolute;
-  top: 125vw;
+  top: 152vw;
   left: -2vw;
   z-index: 100;
   width: 46vw;
@@ -288,15 +288,21 @@ body {
   margin-top: 45vw;
   letter-spacing: -2px;
   line-height: 37px;
-  /*animation: animate 5s linear infinite;
-      background: linear-gradient(90deg, #000, rgba(211,255,0,1), #000);
-      color: #010037;
-background-repeat: no-repeat;
-background-size: 80%;
--webkit-background-clip: text;
--webkit-text-fill-color: rgba(c, 255, 255, 5);*/
+  animation: pulsate 1s linear infinite;
  }
-
+ @-webkit-keyframes pulsate {
+  50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+ }
+ @keyframes pulsate {
+  50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+ }
+ #blink7 {
+   color: rgb(245,245,245);
+   text-shadow: 0 -1px rgba(0,0,0,.1);
+   background: green;
+   -webkit-animation: pulsate 1.2s linear infinite;
+   animation: pulsate 1.2s linear infinite;
+ }
 
 .now {
   margin-left: 2vw;
@@ -317,16 +323,6 @@ background-size: 80%;
   animation: heartBeat 6s linear infinite;
 }
 
-@keyframes animate {
-  0% {
-    background-position: -500%;
-    opacity: 50
-  }
-  100% {
-    background-position: 500%;
-    opacity: 50
-  }
-}
 
 .extra {
   margin-top: 62vw;
@@ -376,6 +372,16 @@ background-size: 80%;
     background-size: 58%;
   }
 
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+      opacity: 50
+    }
+    100% {
+      background-position: 500%;
+      opacity: 50
+    }
+  }
 
 .avopolice {
   height: 100%;
@@ -413,83 +419,7 @@ background-size: 80%;
 
 }
 
-    @-webkit-keyframes bounceInRight {
-      from,
-      60%,
-      75%,
-      90%,
-      to {
-        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-      }
-
-      from {
-        opacity: 0;
-        -webkit-transform: translate3d(3000px, 0, 0);
-        transform: translate3d(3000px, 0, 0);
-      }
-
-      60% {
-        opacity: 1;
-        -webkit-transform: translate3d(-25px, 0, 0);
-        transform: translate3d(-25px, 0, 0);
-      }
-
-      75% {
-        -webkit-transform: translate3d(10px, 0, 0);
-        transform: translate3d(10px, 0, 0);
-      }
-
-      90% {
-        -webkit-transform: translate3d(-5px, 0, 0);
-        transform: translate3d(-5px, 0, 0);
-      }
-
-      to {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-      }
-    }
-
-    @keyframes bounceInRight {
-  from,
-  60%,
-  75%,
-  90%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(3000px, 0, 0);
-    transform: translate3d(3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(-25px, 0, 0);
-    transform: translate3d(-25px, 0, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(-5px, 0, 0);
-    transform: translate3d(-5px, 0, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.wrapp er {
+.wrapper {
   width: 100vw;
   overflow-x: hidden;
   display: flex;
@@ -519,16 +449,18 @@ background-size: 80%;
   animation-iteration-count: infinite;
 }
 
+
 @keyframes move {
   from {
     margin-right: 0vw;
     margin-top: -12vw;
   }
   to {
-  margin-right: 10vw;
-  margin-top: 0vw;
+    margin-right: 10vw;
+    margin-top: 0vw;
   }
 }
+
 
 .full {
   opacity: 55%;
@@ -538,16 +470,18 @@ background-size: 80%;
   animation-iteration-count: infinite;
 }
 
+
 @keyframes move2 {
   from {
     margin-right: 0vw;
     margin-top: -12vw;
   }
   to {
-  margin-right: 16vw;
-  margin-top: 0vw;
+    margin-right: 16vw;
+    margin-top: 0vw;
   }
 }
+
 
 .not_full {
   opacity: 20%;
@@ -557,16 +491,18 @@ background-size: 80%;
   animation-iteration-count: infinite;
 }
 
+
 @keyframes move3 {
   from {
     margin-right: 0vw;
     margin-top: -12vw;
   }
   to {
-  margin-right: 23vw;
-  margin-top: 0vw;
+    margin-right: 23vw;
+    margin-top: 0vw;
   }
 }
+
 
 .not_so_full {
   opacity: 10%;
@@ -575,6 +511,7 @@ background-size: 80%;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
+
 
 @keyframes move4 {
   from {
@@ -586,8 +523,6 @@ background-size: 80%;
   margin-top: 0vw;
   }
 }
-}
-
 
 .stickers {
     width: 103vw;
@@ -640,13 +575,13 @@ background-size: 80%;
     }
 
 
-    .text2 {
+    /* .text2 {
       margin-top: -478px;
       margin-left: -79px;
       width: 100%;
       line-height: 14vw;
       animation: shine 12s linear infinite;
-   }
+   } */
 
     .lemon {
     top: 109vw;
@@ -789,7 +724,7 @@ background-size: 80%;
 
 }
 
-@me dia (min-width: 1440px ) {
+@media (min-width: 1440px ) {
 
 .text {
   margin-left: 0vw;
@@ -838,7 +773,7 @@ margin-left: 3vw;
   }
 }
 
-@meia (min-width: 1920px ) {
+@media (min-width: 1920px ) {
  .s2 {
    right: -48vw;
    top: -71vw;
