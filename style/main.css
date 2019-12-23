@@ -399,6 +399,7 @@ body {
    width: 37vw;
    overflow-x: scroll;
    position: fixed;
+   z-index: 10;
 }
 
 .brok {
@@ -533,6 +534,41 @@ body {
     margin-top: 100vw;
 }
 
+.Av1 {
+  width: 50vw;
+  height: 47vw;
+  z-index: 1;
+  margin-left: -92vw;
+  margin-top: 136vw;
+}
+
+.A1 {
+  width: 50vw;
+  height: 57vw;
+  z-index: 1;
+  margin-left: -104vw;
+  margin-top: 99vw;
+  position: absolute;
+}
+
+.Av2 {
+  width: 38vw;
+  height: 47vw;
+  z-index: 1;
+  margin-left: -89vw;
+  margin-top: 129vw;
+  position: absolute;
+}
+
+.Av3 {
+    width: 52vw;
+    height: 47vw;
+    z-index: 1;
+    margin-left: -60vw;
+    margin-top: 109vw;
+    position: absolute;
+}
+
 .wrapper {
     width: 100vw;
     overflow-x: hidden;
@@ -626,21 +662,14 @@ body {
 .lemon {
     transform: rotate(47deg);
     left: -12vw;
-    top: 50vw;
+    top: 106vw;
     height: 60vw;
     width: 39vw;
-    z-index: 1;
   }
 
   .text2 {
-      margin-top: -524px;
-      margin-left: -57px;
-      width: 100%;
       line-height: 14vw;
-  }
-
-  .text {
-    margin-top: -80vw;
+      margin-left: 11vw;
   }
 
   .wrapper {
@@ -676,6 +705,94 @@ body {
   }
 }
 
+@media (min-width: 480px ) {
+  .lemon {
+    top: 83vw;
+  }
+  .s4 {
+    top: 110vw;
+}
+.s5 {
+    top: 99vw;
+}
+.text {
+    font-size: 10vw;
+    width: 100vw;
+    margin-top: 1vw;
+    line-height: 9vw;
+}
+.stickers {
+    width: 109vw;
+    margin-top: 124vw;
+    height: 120vw;
+    margin-top: 91vw;
+}
+
+.Av1 {
+    width: 82vw;
+    height: 58vw;
+    margin-left: -92vw;
+}
+
+.A1 {
+    width: 65vw;
+    height: 57vw;
+    z-index: 1;
+    margin-left: -116vw;
+    margin-top: 83vw;
+  }
+
+.Av2 {
+    width: 58vw;
+    height: 59vw;
+    z-index: 1;
+    margin-left: -113vw;
+    margin-top: 115vw;
+  }
+.Av3 {
+    width: 61vw;
+    height: 59vw;
+    z-index: 1;
+    margin-left: -66vw;
+    margin-top: 102vw;
+  }
+}
+
+@media (min-width: 645x ) {
+  .s1 {
+    width: 42vw;
+    height: 36vw;
+    margin-left: 25vw;
+  }
+
+.s2 {
+    right: 0;
+    top: 23vw;
+    width: 34vw;
+  }
+.s3 {
+    top: 55px;
+    right: 71px;
+    width: 46vw;
+  }
+.s4 {
+    top: 84vw;
+    width: 30vw;
+  }
+.s5 {
+    top: 70vw;
+    margin-left: -3vw;
+  }
+.text {
+  margin-top: 4vw;
+ }
+ .lemon {
+    top: 57vw;
+    transform: rotate(39deg);
+}
+
+}
+/*
 @media (min-width: 768px ) {
 
   .s1 {
@@ -723,7 +840,8 @@ body {
 }
 
 }
-
+ */
+ 
 @media (min-width: 1440px ) {
 
 .text {
