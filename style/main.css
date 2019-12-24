@@ -2,7 +2,7 @@
 
 @font-face {
    font-family: "Gilroy";
-   src: url(../fonts/Gilroy.ttf) format("truetype");
+   src: url(../fonts/Gilroy.otf) format("opentype");
 }
 
 @font-face {
@@ -46,209 +46,6 @@ body {
   height: 63vw;
   margin-left: 25vw;
 }
-
-/*
-.stickerWrap:before,
-.stickerWrap:after {
-  content: '';
-  display: run-in;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: center / cover url('../img/sticker1.svg');
-}
-.stickerWrap:before {
-  animation: f 8s both;
-  width: 65vw;
-  height: 197vw;
-  transform-style: preserve-3d;
-  position: relative;
-  right: 0;
-  width: 32vw;
-  }
-@keyframes f {
-  from {
-    clip-path: inset(0 80% 0 0);
-  }
-  50%,
-  to {
-    clip-path: inset(0 0% 0 0);
-  }
-}
-.stickerWrap:after {
-  filter: brightness(0.2);
-  transform: rotateY(-180deg);
-  animation: g 8s both;
-  width: 65vw;
-  height: 197vw;
-  transform-style: preserve-3d;
-  position: relative;
-  right: 0;
-  width: 32vw;
-}
-@keyframes g {
-  from {
-    clip-path: inset(0 0 0 20%);
-    transform-origin: 20% 0;
-  }
-  50%,
-  to {
-    clip-path: inset(0 0 0 100%);
-    transform-origin: 100% 0;
-  }
-}
-@keyframes h {
-  from {
-    transform: rotate(-50deg);
-  }
-  to {
-    transform: rotate(-40deg);
-  }
-} */
-
-/*
-.stickerWrap {
-  min-height: 100vh;
-  width: 65vw;
-  height: 197vw;
-  display: gr id;
-  justify-content: ce nter;
-  align-content: center;
-  animation: f 4s both g 4s both h 4s both;
-}
-*/
-
-
-
-/*
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
-  -webkit-perspective-origin: center top;
-          perspective-origin: center top;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  overflow: hidden;
-}
-*/
-
-/*
-.s1 {
-  width: 70vmin;
-  height: 50vmin;
-  margin-top: -51vw;
-  margin-left: -28vw;
-}
-*/
-
-
-/*
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  position: relative;
-  -webkit-animation: h 1s both;
-          animation: h 1s both;
-  -webkit-transform-origin: center bottom;
-          transform-origin: center bottom;
-}
-
-
-.s1:before,
-.s1:after {
-  content: '';
-  display: grid;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: center / cover url(../img/sticker1.svg);
-}
-.s1:before {
-  -webkit-animation: f 4s both;
-          animation: f 4s both;
-}
-@-webkit-keyframes f {
-  from {
-    -webkit-clip-path: inset(0 80% 0 0);
-            clip-path: inset(0 80% 0 0);
-  }
-  50%,
-  to {
-    -webkit-clip-path: inset(0 0% 0 0);
-            clip-path: inset(0 0% 0 0);
-  }
-}
-@keyframes f {
-  from {
-    -webkit-clip-path: inset(0 80% 0 0);
-            clip-path: inset(0 80% 0 0);
-  }
-  50%,
-  to {
-    -webkit-clip-path: inset(0 0% 0 0);
-            clip-path: inset(0 0% 0 0);
-  }
-}
-.s1:after {
-  -webkit-filter: brightness(0.2);
-          filter: brightness(0.2);
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-  -webkit-animation: g 4s both;
-          animation: g 4s both;
-}
-@-webkit-keyframes g {
-  from {
-    -webkit-clip-path: inset(0 0 0 20%);
-            clip-path: inset(0 0 0 20%);
-    -webkit-transform-origin: 20% 0;
-            transform-origin: 20% 0;
-  }
-  50%,
-  to {
-    -webkit-clip-path: inset(0 0 0 100%);
-            clip-path: inset(0 0 0 100%);
-    -webkit-transform-origin: 100% 0;
-            transform-origin: 100% 0;
-  }
-}
-@keyframes g {
-  from {
-    -webkit-clip-path: inset(0 0 0 20%);
-            clip-path: inset(0 0 0 20%);
-    -webkit-transform-origin: 20% 0;
-            transform-origin: 20% 0;
-  }
-  50%,
-  to {
-    -webkit-clip-path: inset(0 0 0 100%);
-            clip-path: inset(0 0 0 100%);
-    -webkit-transform-origin: 100% 0;
-            transform-origin: 100% 0;
-  }
-}
-@-webkit-keyframes h {
-  from {
-    -webkit-transform: rotate(-50deg);
-            transform: rotate(-50deg);
-  }
-  to {
-    -webkit-transform: rotate(-40deg);
-            transform: rotate(-40deg);
-  }
-}
-@keyframes h {
-  from {
-    -webkit-transform: rotate(-50deg);
-            transform: rotate(-50deg);
-  }
-  to {
-    -webkit-transform: rotate(-40deg);
-            transform: rotate(-40deg);
-  }
-}
-*/
-
 
 .s2 {
   position: absolute;
@@ -792,7 +589,7 @@ body {
 }
 
 }
-/*
+
 @media (min-width: 768px ) {
 
   .s1 {
@@ -840,8 +637,8 @@ body {
 }
 
 }
- */
- 
+
+
 @media (min-width: 1440px ) {
 
 .text {
